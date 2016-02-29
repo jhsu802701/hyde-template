@@ -1,5 +1,9 @@
 #!/bin/bash
 
+echo '-------------'
+echo 'rm -rf deploy'
+rm -rf deploy
+
 echo '--------'
 echo 'hyde gen'
 hyde gen
