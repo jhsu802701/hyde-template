@@ -1,22 +1,13 @@
 CONTENT
 content
 |-- about.html
-|-- advanced
-|   |-- grouper.html
-|   |-- meta.yaml
-|   |-- overview.html
-|   |-- sorter.html
-|   `-- tagger.html
-|-- first-steps.html
 |-- index.html
 |-- media
-|   |-- css
-|   |   `-- style.css
-|   `-- img
-|       `-- background.jpg
+|   `-- css
+|       `-- style.css
 `-- meta.yaml
 
-4 directories, 11 files
+2 directories, 4 files
 
 layout
 |-- base.j2

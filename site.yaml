@@ -18,11 +18,11 @@ plugins:
 context:
     data:
         author:
-            name: Merlin Rebrović
-            url: "http://merlin.rebrovic.net"
+            name: Jason Hsu
+            url: "http://www.jasonhsu.com"
         layout:
-            name: Hyde Starter Kit
-            url: "https://github.com/merlinrebrovic/hyde-starter-kit"
+            name: Generic Hyde Template
+            url: "https://github.com/jhsu802701/hyde-template"
         project:
             name: Hyde
             url: "http://hyde.github.com"
@@ -30,8 +30,6 @@ context:
         menu:
           - title: Home
             url: index.html
-          - title: First steps
-            url: first-steps.html
           - title: About
             url: about.html
 

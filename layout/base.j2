@@ -3,14 +3,14 @@
     <head>
         <link href="http://fonts.googleapis.com/css?family=Anton"
             rel="stylesheet" type="text/css">
-            <title>Hyde Starter Kit {% if resource.meta.title-%}
+            <title>Generic Hyde Template {% if resource.meta.title-%}
                 | {{ resource.meta.title}}{%-endif %}</title>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="{{ media_url('css/style.css') }}">
     </head>
     <body>
         <header>
-            <h1><span>Hyde</span> Starter Kit</h1>
+            <h1>Generic Hyde Template</h1>
             <p>Know your tool</p>
         </header>
         <nav>
@@ -20,7 +20,6 @@
         #}
             {% import "macros.j2" as macros with context %}
             {{ macros.render_basic_menu() }}
-            {{ macros.render_advanced_menu() }}
         </nav>
         <article id="content">
         {# Main content block. Notice it has to pass through the
