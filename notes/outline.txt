@@ -1,0 +1,26 @@
+CONTENT
+content
+|-- about.html
+|-- advanced
+|   |-- grouper.html
+|   |-- meta.yaml
+|   |-- overview.html
+|   |-- sorter.html
+|   `-- tagger.html
+|-- first-steps.html
+|-- index.html
+|-- media
+|   |-- css
+|   |   `-- style.css
+|   `-- img
+|       `-- background.jpg
+`-- meta.yaml
+
+4 directories, 11 files
+
+layout
+|-- base.j2
+|-- ga.j2
+`-- macros.j2
+
+0 directories, 3 files
