@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sh outline.sh
+
 echo '-------------'
 echo 'rm -rf deploy'
 rm -rf deploy
