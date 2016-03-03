@@ -79,8 +79,8 @@ nav li {
 #content h2 {
     font-weight: bold;
     font-size: 18px;
-    margin-bottom: 22px;
-    border-bottom: 1px dashed #888;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #content code {
