@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 0;
+    padding: 0px;
 }
 
 html, body {
@@ -10,11 +10,8 @@ html, body {
 
 body {
     margin: 0 auto;
-    width: 980px;
-    min-height: 700px;
-    position: relative;
     font-size: 16px;
-    font-family: Tahoma, sans-serif;
+    padding: 10px;
 }
 
 strong {
@@ -29,21 +26,10 @@ a:hover, a:focus {
     text-decoration: none;
 }
 
-p, ul, ol {
-    margin-bottom: 22px;
-}
-
-ul, ol {
-    margin-left: 28px;
-}
-
 header {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    font-family: Anton, Tahoma, sans-serif;
-    text-transform: uppercase;
+    padding: 10px;
     font-weight: none;
+    background-color: #000;
 }
 
 header h1 {
@@ -60,16 +46,11 @@ header h1 span {
 header p {
     font-size: 28px;
     font-weight: normal;
-    letter-spacing: 11px;
     text-shadow: -1px 2px 1px black;
     color: white;
 }
 
 nav {
-    position: relative;
-    top: 10px;
-    right: 10px;
-    font-family: Anton, Tahoma, sans-serif;
     background-color: #060;
 }
 
@@ -77,7 +58,6 @@ nav a,
 nav a:visited {
     text-decoration: none;
     color: white;
-    text-transform: uppercase;
     font-size: 28px;
 }
 
@@ -92,27 +72,27 @@ nav a:hover {
 nav ul li {
     list-style-type: none;
     display: inline;
+    margin-bottom: 0px;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline;
+    padding-left: 10px;
 }
 
 nav, aside {
     /* to line up with the header */
-    padding-right: 5px;
+    padding-right: 20px;
 }
 
 #content {
     line-height: 1.5em;
-    position: absolute;
-    top: 350px;
-    left: 180px;
-    width: 410px;
-    padding-bottom: 100px;
 }
 
 #content h1 {
     font-weight: normal;
     font-size: 28px;
-    font-family: Anton, Tahoma, sans-serif;
-    text-transform: uppercase;
     margin-bottom: 22px;
     color: white;
 }
@@ -120,7 +100,6 @@ nav, aside {
 #content h2 {
     font-weight: bold;
     font-size: 18px;
-    font-family: Tahoma, sans-serif;
     margin-bottom: 22px;
     border-bottom: 1px dashed #888;
 }
