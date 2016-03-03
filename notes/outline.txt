@@ -1,13 +1,16 @@
 CONTENT
 content
 |-- about.html
+|-- contact.html
 |-- index.html
 |-- media
-|   `-- css
-|       `-- style.css
+|   |-- css
+|   |   `-- style.css
+|   `-- img
+|       `-- email.jpg
 `-- meta.yaml
 
-2 directories, 4 files
+3 directories, 6 files
 
 layout
 |-- base.j2
