@@ -4,22 +4,14 @@
 }
 
 html, body {
-    color: #ddd;
-    background-color: #606;
+    color: black;
+    background-color: WhiteSmoke;
 }
 
 body {
     margin: 0 auto;
     font-size: 16px;
     padding: 10px;
-}
-
-strong {
-    color: white;
-}
-
-a {
-    color: #f1ee00;
 }
 
 a:hover, a:focus {
@@ -29,29 +21,22 @@ a:hover, a:focus {
 header {
     padding: 10px;
     font-weight: none;
-    background-color: #000;
+    background-color: Gainsboro;
+    color: black;
 }
 
 header h1 {
     font-size: 50px;
     font-weight: normal;
-    text-shadow: -1px 2px 1px black;
-    color: white;
-}
-
-header h1 span {
-    color: #f1ee00;
 }
 
 header p {
     font-size: 28px;
     font-weight: normal;
-    text-shadow: -1px 2px 1px black;
-    color: white;
 }
 
 nav {
-    background-color: #060;
+    background-color: black;
 }
 
 nav a,
@@ -72,18 +57,12 @@ nav a:hover {
 nav ul li {
     list-style-type: none;
     display: inline;
-    margin-bottom: 0px;
 }
 
 nav li {
     list-style-type: none;
     display: inline;
     padding-left: 10px;
-}
-
-nav, aside {
-    /* to line up with the header */
-    padding-right: 20px;
 }
 
 #content {
@@ -93,8 +72,8 @@ nav, aside {
 #content h1 {
     font-weight: normal;
     font-size: 28px;
-    margin-bottom: 22px;
-    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #content h2 {
@@ -108,7 +87,6 @@ nav, aside {
     display: block;
     font-family: monospace;
     font-size: 12px;
-    background-color: #222;
     padding: 5px 10px;
     margin-bottom: 20px;
     border-top: 1px solid #444;
@@ -117,18 +95,6 @@ nav, aside {
     border-left: 1px solid #111;
 }
 
-#content .tags {
-    font-size: 14px;
-    color: #888;
-}
-
-#content .bottom_article_nav {
-    border-top: 1px dashed #888;
-    overflow: hidden;
-    margin-top: 40px;
-    padding-top: 10px;
-}
-
-#content .bottom_article_nav .next {
-    float: right;
+footer {
+	font-size: 12px;
 }
